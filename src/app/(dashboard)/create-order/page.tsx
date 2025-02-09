@@ -1,12 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function ListOrderPage() {
-  const [page, setPage] = useState<"ongkir" | "resi">("ongkir");
-  const [isPricingShow, setPricingShow] = useState<boolean>(false);
-
   return (
     <div className="flex flex-col min-h-screen p-4">
       <div className="relative flex items-center justify-center w-full py-4">

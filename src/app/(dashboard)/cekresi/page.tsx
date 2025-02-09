@@ -1,13 +1,9 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 export default function CekResiPage() {
   const router = useRouter();
-  const [page, setPage] = useState<"ongkir" | "resi">("ongkir");
-  const [isPricingShow, setPricingShow] = useState<boolean>(false);
 
   return (
     <div className="flex flex-col items-center min-h-screen p-4">

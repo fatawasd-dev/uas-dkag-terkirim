@@ -1,8 +1,7 @@
 "use client";
 
-import { Home, List, Plus } from "lucide-react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function RootLayout({
